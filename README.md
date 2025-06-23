@@ -1,16 +1,18 @@
-## Hi there 👋
+# 🐞 Bug Bounty Notes by Olasunkanmi
 
-<!--
-**Olasunkanmi3-1/Olasunkanmi3-1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my bug bounty hunting knowledge vault. This repo contains:
+- My methodology for web app hacking
+- Useful payloads
+- Recon steps
+- Notes from labs and real-world practice
 
-Here are some ideas to get you started:
+## 🔧 Recon Tools
+- `subfinder`, `assetfinder`, `amass` — for subdomain enum
+- `httpx`, `nmap`, `whatweb` — for service discovery
+- `ffuf`, `dirsearch` — for directory brute-force
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 💥 Payloads
+### XSS
+```html
+"><script>alert(document.domain)</script>
+
