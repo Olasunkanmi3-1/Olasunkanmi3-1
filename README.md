@@ -1,18 +1,16 @@
-# 🐞 Bug Bounty Notes by Olasunkanmi
+# 🔍 Python Port Scanner
 
-Welcome to my bug bounty hunting knowledge vault. This repo contains:
-- My methodology for web app hacking
-- Useful payloads
-- Recon steps
-- Notes from labs and real-world practice
+A simple multithreaded port scanner built in Python. Useful for practicing reconnaissance and ethical hacking fundamentals.
 
-## 🔧 Recon Tools
-- `subfinder`, `assetfinder`, `amass` — for subdomain enum
-- `httpx`, `nmap`, `whatweb` — for service discovery
-- `ffuf`, `dirsearch` — for directory brute-force
+## 💡 Features
+- Scans a target host for open ports.
+- Uses socket programming.
+- Supports multithreading for faster scans.
 
-## 💥 Payloads
-### XSS
-```html
-"><script>alert(document.domain)</script>
+## ⚙️ How to Use
+```bash
+python port_scanner.py -t 192.168.1.1 -p 1-1000
+```
 
+## 🔐 Disclaimer
+For educational purposes only. Do not scan systems without permission.
