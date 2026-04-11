@@ -1,8 +1,8 @@
-🧠 About Me
+
 
  ## 👨‍💻 About Me
 
-I’m a Cybersecurity Analyst with a strong focus on offensive security and a growing interest in red team operations.
+My name is Olasunkanmi Mosuro and I’m a Cybersecurity Analyst with a strong focus on offensive security and a growing interest in red team operations.
 
 My journey into cybersecurity started with a curiosity about how systems are broken, bypassed, and ultimately secured. Since then, I’ve been building hands-on experience through labs, real-world simulations, and structured learning—focusing on areas like reconnaissance, network analysis, and vulnerability discovery.
 
